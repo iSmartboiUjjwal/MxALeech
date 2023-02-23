@@ -29,16 +29,16 @@ default_values = {'AUTO_DELETE_MESSAGE_DURATION': 30,
                   'DOWNLOAD_DIR': '/usr/src/app/downloads/',
                   'TIME_GAP': -1,
                   'TG_SPLIT_SIZE': tgBotMaxFileSize,
-                  'TGH_THUMB': 'https://te.legra.ph/file/3325f4053e8d68eab07b5.jpg',
-                  'START_BTN1_NAME': 'Master',
-                  'START_BTN1_URL': 'https://t.me/krn_adhikari',
+                  'TGH_THUMB': 'https://graph.org/file/6b22ef7b8a733c5131d3f.jpg',
+                  'START_BTN1_NAME': 'Channel',
+                  'START_BTN1_URL': 'https://t.me/Mxa_Bots',
                   'START_BTN2_NAME': 'Support Group',
-                  'START_BTN2_URL': 'https://t.me/WeebZone_updates',
-                  'AUTHOR_NAME': 'WZML',
-                  'AUTHOR_URL': 'https://t.me/WeebZone_updates',
+                  'START_BTN2_URL': 'https://t.me/+3k6jRHSjISw3ZTE9',
+                  'AUTHOR_NAME': 'MxABots',
+                  'AUTHOR_URL': 'https://t.me/MxA_Bots',
                   'TITLE_NAME': 'WeebZone',
-                  'GD_INFO': 'Uploaded by WeebZone Mirror Bot',
-                  'CREDIT_NAME': 'WeebZone',
+                  'GD_INFO': 'Uploaded by MxA Mirror Bot',
+                  'CREDIT_NAME': 'MxABots',
                   'NAME_FONT': 'code',
                   'CAPTION_FONT': 'code',
                   'FINISHED_PROGRESS_STR': '█',
@@ -120,7 +120,7 @@ def load_config():
 
     TGH_THUMB = environ.get('TGH_THUMB', '')
     if len(TGH_THUMB) == 0:
-        TGH_THUMB = 'https://te.legra.ph/file/3325f4053e8d68eab07b5.jpg'
+        TGH_THUMB = 'https://graph.org/file/6b22ef7b8a733c5131d3f.jpg'
 
     SA_MAIL = environ.get('SA_MAIL', '')
     if len(SA_MAIL) == 0:
@@ -483,14 +483,14 @@ def load_config():
     START_BTN1_NAME = environ.get('START_BTN1_NAME', '')
     START_BTN1_URL = environ.get('START_BTN1_URL', '')
     if len(START_BTN1_NAME) == 0 or len(START_BTN1_URL) == 0:   
-        START_BTN1_NAME = 'Master'
-        START_BTN1_URL = 'https://t.me/krn_adhikari'
+        START_BTN1_NAME = 'Channel'
+        START_BTN1_URL = 'https://t.me/MxA_Bots'
 
     START_BTN2_NAME = environ.get('START_BTN2_NAME', '')
     START_BTN2_URL = environ.get('START_BTN2_URL', '')
     if len(START_BTN2_NAME) == 0 or len(START_BTN2_URL) == 0:   
         START_BTN2_NAME = 'Support Group'
-        START_BTN2_URL = 'https://t.me/WeebZone_updates'
+        START_BTN2_URL = 'https://t.me/+3k6jRHSjISw3ZTE9'
 
     BUTTON_FOUR_NAME = environ.get('BUTTON_FOUR_NAME', '')
     BUTTON_FOUR_URL = environ.get('BUTTON_FOUR_URL', '')
@@ -568,7 +568,7 @@ def load_config():
 
     AUTHOR_URL = environ.get('AUTHOR_URL', '')
     if len(AUTHOR_URL) == 0:    
-        AUTHOR_URL = 'https://t.me/WeebZone_updates'
+        AUTHOR_URL = 'https://t.me/MxA_Bots'
 
     TITLE_NAME = environ.get('TITLE_NAME', '')
     if len(TITLE_NAME) == 0:    
@@ -576,11 +576,11 @@ def load_config():
 
     GD_INFO = environ.get('GD_INFO', '')
     if len(GD_INFO) == 0:   
-        GD_INFO = 'Uploaded by WeebZone Mirror Bot'
+        GD_INFO = 'Uploaded by MxA Mirror Bot'
 
     CREDIT_NAME = environ.get('CREDIT_NAME', '')
     if len(CREDIT_NAME) == 0:   
-        CREDIT_NAME = 'WeebZone'
+        CREDIT_NAME = 'MxABots'
 
     NAME_FONT = environ.get('NAME_FONT', '')
     if len(NAME_FONT) == 0: 
