@@ -36,7 +36,7 @@ default_values = {'AUTO_DELETE_MESSAGE_DURATION': 30,
                   'START_BTN2_URL': 'https://t.me/+3k6jRHSjISw3ZTE9',
                   'AUTHOR_NAME': 'MxABots',
                   'AUTHOR_URL': 'https://t.me/MxA_Bots',
-                  'TITLE_NAME': 'WeebZone',
+                  'TITLE_NAME': 'MxABots',
                   'GD_INFO': 'Uploaded by MxA Mirror Bot',
                   'CREDIT_NAME': 'MxABots',
                   'NAME_FONT': 'code',
@@ -572,7 +572,7 @@ def load_config():
 
     TITLE_NAME = environ.get('TITLE_NAME', '')
     if len(TITLE_NAME) == 0:    
-        TITLE_NAME = 'WeebZone'
+        TITLE_NAME = 'MxABots'
 
     GD_INFO = environ.get('GD_INFO', '')
     if len(GD_INFO) == 0:   
